@@ -13,16 +13,23 @@ header{
 header nav{
  background-color: gray;
  margin-left: 50px;
- margin-top:20px;
- margin-bottom:20px;
+ margin-top:30px;
+ margin-bottom:30px;
+ height: 60px;
+ padding-top: 5px;
+ padding-bottom: 50px;
+ padding-left: 10px;
  
  
  
 }
 nav img {
-    margin-top: 15px;
-    margin-right: 50px;
+    /*margin-top: 15px;*/
+    margin-right: 60px;
     float: left;
+    margin-bottom:-40px ;
+    height: 50px;
+   /* width: 100px;*/
   /*  float:left;*/
     /*display: inline-block;*/
 }
@@ -45,9 +52,8 @@ main {
     
 }
 main section article{
-
-    margin-left: 50px;
     display: inline-block;
+    margin-left: 50px;
     margin: 30px 30px 30px 0px;
 
 
@@ -64,56 +70,33 @@ main article:last-child{
  
 
 
-/*#right{*/
-/*article h2{
-   float: right;
-   margin: 10px;
-   float: left;
-   padding-left: 20px;
-   width:80%;
-  
-
-} */ 
 /*
-main section article h2{
-    float: right;
-    margin: 10px;
-    float: right;
-    padding-left: 60%;
-
-}
-*/
- section div article {
-    float: right;
-    margin: 10px;
-    padding-left: 60%;
-   /* padding-top:60% ;*/
-  /* padding-bottom: 100%;*/
   margin-bottom:50% ;
   width:100% ;
       
-}
-section div article h2 {
+}*/
+div h2 {
     font-size: 15px;
-    border: bol;
+    border: bold;
+    padding-left: 500px;
+    margin-top: -500px;
+    margin-bottom: 550px;
     
     
+}
+div p{
+    overflow: scroll;
+    margin-right:0px ;
+    padding-left: 500px;
+    margin-top: -500px;
+    line-height: 20px;
+    font-size: 15px;
+   
 }
 
 
 
-/*
-section article div h2{
-    
 
-}
-/*
-article h2{
-    margin-bottom:50%;
-    margin-top: 60%;
-
-}
-*/
 
 section h3{
     background-color: black;
@@ -131,7 +114,7 @@ footer{
     clear: both;
     text-align: center;
     background-color: #ddd;
-    margin-bottom: 80%;
+   /* margin-bottom: 80%;*/
     padding: 50px;
   }
   
